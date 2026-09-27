@@ -46,4 +46,4 @@ chunks/
 *.mp3
 
 main.py
-test.py
+test.py*.webm

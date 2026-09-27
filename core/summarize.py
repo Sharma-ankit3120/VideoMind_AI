@@ -13,7 +13,7 @@ load_dotenv()
 
 def get_llm():
 
-    return ChatMistralAI(model = "mistral-small-latest", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.4)
+    return ChatMistralAI(model = "ministral-14b-2512", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.4)
 
 def split_transcript(transcipt:str) -> list:
     splitter = RecursiveCharacterTextSplitter(

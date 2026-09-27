@@ -10,7 +10,7 @@ import os
 
 def get_llm():
 
-    return ChatMistralAI(model = "mistral-small-latest", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.4)
+    return ChatMistralAI(model = "ministral-14b-2512", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.4)
 
 
 def build_chain(system_prompt:str):

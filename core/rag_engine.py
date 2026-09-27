@@ -11,7 +11,7 @@ from operator import itemgetter # Because of this Now the chain expects a dictio
 
 def get_llm():
 
-    return ChatMistralAI(model = "mistral-small-latest", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.2)
+    return ChatMistralAI(model = "ministral-14b-2512", mistral_api_key= os.getenv("MISTRAL_API_KEY"), temperature=0.2)
 
 
 # def format_docs(docs):
